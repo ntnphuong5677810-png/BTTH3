@@ -1,0 +1,41 @@
+*{
+    color: coral;
+    transition: all ease 0.2s;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+p{
+    color: darkcyan;
+}
+
+.information{
+    color: rgb(48, 61, 24);
+    font-size: 24px;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#bottom{
+    width: 146px;
+    height: 28px;
+    font-weight: 700px;
+    color: white;
+    background-color: rgb(230, 230, 18);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom:hover{
+    transform: translateY(-2px);
+    background-color: rgb(45, 45, 4);
+    color: darkgoldenrod;
+}
